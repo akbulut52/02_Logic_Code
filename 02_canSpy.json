@@ -1,0 +1,123 @@
+{
+  "caption": "02_canSp",
+  "gates": [
+    {
+      "x": "390",
+      "y": "540",
+      "direction": "1",
+      "inputCount": "3",
+      "outputCount": "1",
+      "logicFunction": "\"or\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[false,false,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "420",
+      "y": "720",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "285",
+      "y": "405",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "435",
+      "y": "405",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    },
+    {
+      "x": "585",
+      "y": "405",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 2
+    }
+  ],
+  "wires": [
+    {
+      "x1": "300",
+      "y1": "510",
+      "x2": "420"
+    },
+    {
+      "x1": "300",
+      "y1": "420",
+      "y2": "510"
+    },
+    {
+      "x1": "420",
+      "y1": "510",
+      "y2": "540"
+    },
+    {
+      "x1": "450",
+      "y1": "420",
+      "y2": "540"
+    },
+    {
+      "x1": "600",
+      "y1": "420",
+      "y2": "510"
+    },
+    {
+      "x1": "480",
+      "y1": "510",
+      "x2": "600"
+    },
+    {
+      "x1": "480",
+      "y1": "510",
+      "y2": "540"
+    },
+    {
+      "x1": "420",
+      "y1": "600",
+      "y2": "720"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "270",
+      "y": "330",
+      "txt": "A awake"
+    },
+    {
+      "x": "420",
+      "y": "330",
+      "txt": "B awake"
+    },
+    {
+      "x": "570",
+      "y": "330",
+      "txt": "C awake\n"
+    },
+    {
+      "x": "480",
+      "y": "720",
+      "txt": "Q\n"
+    },
+    {
+      "x": "270",
+      "y": "180",
+      "txt": "canSpy()"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}

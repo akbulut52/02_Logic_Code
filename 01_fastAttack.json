@@ -1,0 +1,67 @@
+{
+  "caption": "01_fastAttack",
+  "gates": [],
+  "outputs": [
+    {
+      "x": "-630",
+      "y": "-30",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "-885",
+      "y": "-45",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    }
+  ],
+  "wires": [
+    {
+      "x1": "-870",
+      "y1": "-30",
+      "x2": "-780"
+    },
+    {
+      "x1": "-720",
+      "y1": "-30",
+      "x2": "-630"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [
+    {
+      "x": "-780",
+      "y": "-60",
+      "direction": "0",
+      "filename": "\"not-gate.json\"",
+      "outputsInv": "[]",
+      "inputsInv": "[]"
+    }
+  ],
+  "labels": [
+    {
+      "x": "-900",
+      "y": "-150",
+      "txt": "canExecuteFastAttack()"
+    },
+    {
+      "x": "-930",
+      "y": "30",
+      "txt": "B awake"
+    },
+    {
+      "x": "-660",
+      "y": "30",
+      "txt": "Q"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}

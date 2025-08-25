@@ -1,0 +1,106 @@
+{
+  "caption": "03_signalPrisoner",
+  "gates": [
+    {
+      "x": "390",
+      "y": "330",
+      "direction": "1",
+      "inputCount": "2",
+      "outputCount": "1",
+      "logicFunction": "\"and\"",
+      "outputsInv": "[false]",
+      "inputsInv": "[true,false]"
+    }
+  ],
+  "outputs": [
+    {
+      "x": "420",
+      "y": "480",
+      "colr": "0"
+    }
+  ],
+  "inputs": [
+    {
+      "x": "345",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 0
+    },
+    {
+      "x": "495",
+      "y": "195",
+      "framecount": "-1",
+      "clock": "false",
+      "pos": 1
+    }
+  ],
+  "wires": [
+    {
+      "x1": "360",
+      "y1": "210",
+      "y2": "300"
+    },
+    {
+      "x1": "360",
+      "y1": "300",
+      "x2": "420"
+    },
+    {
+      "x1": "420",
+      "y1": "300",
+      "y2": "330"
+    },
+    {
+      "x1": "510",
+      "y1": "210",
+      "y2": "300"
+    },
+    {
+      "x1": "450",
+      "y1": "300",
+      "x2": "510"
+    },
+    {
+      "x1": "450",
+      "y1": "300",
+      "y2": "330"
+    },
+    {
+      "x1": "420",
+      "y1": "390",
+      "y2": "480"
+    }
+  ],
+  "busses": [],
+  "conpoints": [],
+  "diodes": [],
+  "customs": [],
+  "labels": [
+    {
+      "x": "300",
+      "y": "150",
+      "txt": "A awake"
+    },
+    {
+      "x": "480",
+      "y": "150",
+      "txt": "C awake"
+    },
+    {
+      "x": "450",
+      "y": "480",
+      "txt": "Q"
+    },
+    {
+      "x": "270",
+      "y": "90",
+      "txt": "canSignalPrisoner()"
+    }
+  ],
+  "segDisplays": [],
+  "busWrappers": [],
+  "busUnwrappers": [],
+  "busInputs": [],
+  "decoders": []
+}
